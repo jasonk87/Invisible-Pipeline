@@ -1,0 +1,5 @@
+{
+  "name": "Invisible Pipeline",
+  "description": "A unidirectional amnesia architecture for high-precision LLM execution. Brute-forces thoroughness through iterative, fresh-context auditing with LOCKED OUTPUT + NO REGRESSION checks.",
+  "requestFramePermissions": []
+}
