@@ -488,3 +488,23 @@ python -m agent_core.debug_viewer debug.json
 ```
 
 The viewer is for post-run inspection (not streaming) and helps inspect prompts/responses/tool calls/events.
+
+
+## Module Lab (UI + local backend)
+
+Backend:
+
+```bash
+cd apps/module_lab_server
+python -m uvicorn main:app --reload --port 8000
+```
+
+Frontend:
+
+```bash
+cd apps/module_lab_ui
+npm install
+npm run dev
+```
+
+The frontend should call `http://localhost:8000`.
