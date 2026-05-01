@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: llm_core
+Version: 0.1.0
+Summary: Minimal object-oriented LLM call layer
+Requires-Python: >=3.10

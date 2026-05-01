@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+memory_core/__init__.py
+memory_core/memory.py
+memory_core/types.py
+memory_core.egg-info/PKG-INFO
+memory_core.egg-info/SOURCES.txt
+memory_core.egg-info/dependency_links.txt
+memory_core.egg-info/top_level.txt
+tests/test_memory_core.py
