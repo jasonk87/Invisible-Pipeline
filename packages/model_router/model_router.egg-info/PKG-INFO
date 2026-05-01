@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: model-router
+Version: 0.1.0
+Summary: Minimal shared model access layer for local projects
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# model_router
+
+Minimal shared model access layer for local projects.
+
+## Install (editable)
+
+```bash
+cd packages/model_router
+pip install -e .
+```
+
+## Usage
+
+```python
+from model_router import generate, list_models
+```

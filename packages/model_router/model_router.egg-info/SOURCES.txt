@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+model_router/__init__.py
+model_router/router.py
+model_router.egg-info/PKG-INFO
+model_router.egg-info/SOURCES.txt
+model_router.egg-info/dependency_links.txt
+model_router.egg-info/top_level.txt
+tests/test_router.py

@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+agent_core/__init__.py
+agent_core/agent.py
+agent_core/debug_viewer.py
+agent_core/modes.py
+agent_core/prompt_builder.py
+agent_core/team.py
+agent_core/team_session.py
+agent_core/types.py
+agent_core.egg-info/PKG-INFO
+agent_core.egg-info/SOURCES.txt
+agent_core.egg-info/dependency_links.txt
+agent_core.egg-info/top_level.txt
+tests/test_agent_core.py
+tests/test_team.py

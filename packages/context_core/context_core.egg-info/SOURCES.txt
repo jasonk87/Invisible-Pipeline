@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+context_core/__init__.py
+context_core/builder.py
+context_core/policies.py
+context_core/result.py
+context_core/section.py
+context_core.egg-info/PKG-INFO
+context_core.egg-info/SOURCES.txt
+context_core.egg-info/dependency_links.txt
+context_core.egg-info/top_level.txt
+tests/test_context_core.py

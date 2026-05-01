@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+tests/test_workspace_core.py
+workspace_core/__init__.py
+workspace_core/errors.py
+workspace_core/result.py
+workspace_core/rules.py
+workspace_core/workspace.py
+workspace_core.egg-info/PKG-INFO
+workspace_core.egg-info/SOURCES.txt
+workspace_core.egg-info/dependency_links.txt
+workspace_core.egg-info/top_level.txt

@@ -1,0 +1,53 @@
+Metadata-Version: 2.4
+Name: tool-core
+Version: 0.1.0
+Summary: Minimal object-oriented tool system for local AI agents
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# tool_core
+
+Minimal object-oriented tool system for local AI agents.
+
+## Install (editable)
+
+```bash
+cd packages/tool_core
+pip install -e .
+```
+
+## Usage
+
+```python
+from tool_core import ToolRegistry
+from tool_core.builtins import tree_summary_tool, read_text_tool
+
+tools = ToolRegistry()
+tools.add(tree_summary_tool())
+tools.add(read_text_tool())
+
+result = tools.call("tree_summary", {"root": "."})
+```
+
+Tools are structured objects, and failures return `ToolResult` instead of crashing.
+Tool groups let agents expose many internal actions as one model-facing tool.
+Write tools will come later behind workspace safety.
+
+
+## Optional web built-ins
+
+```python
+from tool_core import ToolRegistry
+from tool_core.builtins import web_search_tool, fetch_url_tool
+
+tools = ToolRegistry()
+tools.add(web_search_tool())
+tools.add(fetch_url_tool())
+```
+
+These tools are optional and only run if registered/called. They lazily read keys via `env_core` from `packages/env_core/env/.env`:
+
+```env
+GOOGLE_SEARCH_API_KEY=...
+GOOGLE_SEARCH_ENGINE_ID=...
+```

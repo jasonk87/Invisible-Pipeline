@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: invisible-pipeline
+Version: 0.1.0
+Summary: Minimal invisible pipeline for independent LLM re-evaluation
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown

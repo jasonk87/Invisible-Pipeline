@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+tests/test_tool_core.py
+tool_core/__init__.py
+tool_core/builtins.py
+tool_core/groups.py
+tool_core/registry.py
+tool_core/types.py
+tool_core.egg-info/PKG-INFO
+tool_core.egg-info/SOURCES.txt
+tool_core.egg-info/dependency_links.txt
+tool_core.egg-info/top_level.txt
